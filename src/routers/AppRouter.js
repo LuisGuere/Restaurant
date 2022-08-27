@@ -11,6 +11,7 @@ import HomePage from "../pages/HomePage";
 import CartPage from "../pages/CartPage";
 import ReservationPage from "../pages/ReseervationPage";
 import MenuPage from "../pages/MenuPage";
+import OrderPage from "../pages/OrderPage";
 import AboutPage from "../pages/AboutPage"
 
 const AppRouter = () => {
@@ -23,6 +24,7 @@ const AppRouter = () => {
                     <Route path="/menu" element={<MenuPage />}/>
                     <Route path="/reservation" element={<ReservationPage />}/>
                     <Route path="/cart" element={<CartPage />}/>
+                    <Route path="/order" element={<OrderPage />}/>
                     <Route path="/about" element={<AboutPage />}/>
 
                     <Route path="*" element={<Navigate to="/" />}/>
