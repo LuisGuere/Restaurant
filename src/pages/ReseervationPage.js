@@ -1,8 +1,15 @@
 import React from "react";
+import Form from "../components/Form";
+
 
 const ReservationPage = () => {
     return (
-        <h1>ReservationPage</h1>
+        <>
+       <div className="container-fluid">
+           <Form />
+
+       </div>
+        </>
     );
 };
 
