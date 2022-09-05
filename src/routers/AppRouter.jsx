@@ -13,6 +13,7 @@ import ReservationPage from "../pages/ReseervationPage";
 import MenuPage from "../pages/MenuPage";
 import OrderPage from "../pages/OrderPage";
 import AboutPage from "../pages/AboutPage"
+import ProductPage from "../pages/ProductPage";
 
 const AppRouter = () => {
     return (
@@ -26,7 +27,7 @@ const AppRouter = () => {
                     <Route path="/cart" element={<CartPage />}/>
                     <Route path="/order" element={<OrderPage />}/>
                     <Route path="/about" element={<AboutPage />}/>
-
+                    <Route path="/products" element={<ProductPage />}/>
                     <Route path="*" element={<Navigate to="/" />}/>
                 </Routes>
             </div>

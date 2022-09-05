@@ -1,4 +1,6 @@
 import React from "react";
+import { createProductApi } from "../Apis/ProductApi";
+import CreateProductModal from "./CreateProductModal";
 //import db from "../firebase/firebase";
 /*
 const respData = async () =>{
@@ -9,9 +11,8 @@ const respData = async () =>{
 
 const Products = () => {
     return (
-        <div className="col">
-            <h1>Products</h1>
-        </div>
+        <CreateProductModal/>
+
     );
 };
 

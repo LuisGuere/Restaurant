@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-const OrderCheck = () => {
+
+const OrderCheck = () => {    
     return (
         <div className="container">
         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -20,6 +21,9 @@ const OrderCheck = () => {
                 </div>
             <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
                 <h1>Entregas</h1>
+                <div id="showDelivery">
+
+                </div>
                 </div>
             <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex={0}>
                 <h1>Zonas disponibles y ocupadas</h1>

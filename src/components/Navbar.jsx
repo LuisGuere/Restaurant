@@ -32,6 +32,9 @@ const Navbar = () => {
                     <li>
                         <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/about">About</NavLink>
                     </li>
+                    <li>
+                        <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/products">Products</NavLink>
+                    </li>
                 </ul>
                 <form className="d-flex" role="search">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
